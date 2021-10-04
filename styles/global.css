@@ -1,0 +1,60 @@
+/*reset do css*/
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+/*variaveis de cor*/
+html {
+  --black: #0d114f;
+  --white: #fafafa;
+  --red: #e83f5b;
+  --light-blue: #e0ecff;
+  --blue: #3485ff;
+  --background: #f6faff;
+  --overlay: #040911;
+  --icons-details: #a5b0c1;
+
+  --grey-dark: #4d5e77;
+  --grey-blue: #a1b2cd;
+  --grey-light: #e5eaf1;
+
+  /* 1rem = 16px (user Agent) = 100% (user agent) */
+  font-size: 62.5%; /* 1 rem = 10px */
+}
+
+body {
+  height: 100vh; /* view height */
+  background: var(--background);
+}
+
+body,
+button,
+input,
+textarea {
+  /* intervalo de tamanho */
+  font-size: clamp(14px, 1.6rem, 2vw);
+
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+}
+/* Para fazer a largura ficar responsiva,foi criada essa classe div colocando dentro dessa div o header e main ,ficando esta div dentro do body*/
+.content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Fazer a informação ficar escondida mas os motores de busca do google continua localizando para a assessibilidade */
+.sr-only {
+  position: absolute; /* deixa o item deslocado para primeiro plano e não respeita nenhuma div ou container */
+  height: 1px; /* deixar somente um ponto na tela,para facilitar enconder */
+  width: 1px; /* deixar somente um ponto na tela,para facilitar enconder */
+  padding: 0; /* deixar somente um ponto na tela,para facilitar enconder */
+  margin: -1px; /* para ele sumir da tela,ficando acima da parte superior esquerda,mas aceita a busca para assessibilidade */
+  overflow: hidden; /* para não ter barra de rolagem */
+  clip-path: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
