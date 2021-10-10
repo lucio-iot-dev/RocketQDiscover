@@ -26,6 +26,7 @@ html {
 }
 
 body {
+  display: flex;
   height: 100vh; /* view height */
   background: var(--background);
 }
@@ -109,4 +110,8 @@ button.outlined,
 
 .content header img {
   width: 16.7rem;
+}
+
+img {
+  margin-right: 1rem;
 }
