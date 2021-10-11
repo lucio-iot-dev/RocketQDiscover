@@ -20,6 +20,7 @@ html {
   --grey-dark: #4d5e77;
   --grey-blue: #a1b2cd;
   --grey-light: #e5eaf1;
+  --grey-read: #eaecf1;
 
   /* 1rem = 16px (user Agent) = 100% (user agent) */
   font-size: 62.5%; /* 1 rem = 10px */
@@ -91,7 +92,8 @@ button:hover,
   filter: brightness(1.2);
 }
 
-button > img .button > img {
+button > img,
+.button > img {
   margin-right: 1rem;
   width: 2rem;
 }
@@ -110,8 +112,4 @@ button.outlined,
 
 .content header img {
   width: 16.7rem;
-}
-
-img {
-  margin-right: 1rem;
 }
