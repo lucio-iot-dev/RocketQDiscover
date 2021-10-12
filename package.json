@@ -1,0 +1,24 @@
+{
+  "name": "RocketQDiscovery",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anônimas de usuários direcionadas ao dono da pagina.Projeto desenvolvido na semana NLW Rocketseat na missão Discover",
+  "main": "index.js",
+  "scripts": {
+        "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucio-iot-dev/RocketQDiscovery.git"
+  },
+  "keywords": [],
+  "author": "Lúcio do Nascimento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucio-iot-dev/RocketQDiscovery/issues"
+  },
+  "homepage": "https://github.com/lucio-iot-dev/RocketQDiscovery#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
