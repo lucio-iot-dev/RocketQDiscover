@@ -47,4 +47,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.c
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Feito por Lúcio do nascimento com ajuda da Roketseat.
